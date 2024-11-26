@@ -31,7 +31,7 @@ public class SimpleCalculatorTest {
     public void TestMinus() {
         SimpleCalculator simpleCalculator = new SimpleCalculator();
         int rs = simpleCalculator.Minus(3,2);
-        assertThat(rs).isEqualTo(6);
+        assertThat(rs).isEqualTo(1);
     }
 
     @Test
@@ -40,7 +40,7 @@ public class SimpleCalculatorTest {
         SimpleCalculator simpleCalculator = new SimpleCalculator();
         int rs = simpleCalculator.Divide(4,2);
 
-        assertThat(rs).isEqualTo(6);
+        assertThat(rs).isEqualTo(2);
     }
 
     @Test
@@ -49,6 +49,6 @@ public class SimpleCalculatorTest {
         SimpleCalculator simpleCalculator = new SimpleCalculator();
         int rs = simpleCalculator.Reminder(3,2);
 
-        assertThat(rs).isEqualTo(6);
+        assertThat(rs).isEqualTo(1);
     }
 }
